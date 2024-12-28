@@ -1,0 +1,156 @@
+/*.services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.services-left
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    flex: 1;
+    margin-left: 0%;
+    margin-right: 100px;
+    width: 50%;
+    height: 100vh;
+    margin: 0%;
+}
+.services-right {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    flex: 1;
+    margin-right: 0%;
+    margin-left: 100%;
+    width: 50%;
+    height: 100vh;
+    align-items: flex-end;
+    margin: 0%;
+    
+}
+
+
+.consulting1 img{
+    margin-top: 50px;
+    margin-right: 1000px;
+    width: 105%;
+    height: 50 vh; 
+    margin-bottom: 0%;   
+    object-fit: cover;
+     
+}
+.text-overlay{
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7));
+    
+}
+.tech1{
+    height: 50vh;
+    margin-top: 0px;
+}
+.tech1 img{
+    margin-top: -6.5px;
+    
+    margin-right: 1000px;
+    width: 105%;
+    height: 74.3vh;
+    display: flex;
+    flex: 1;
+    
+    object-fit: cover;
+}
+.training1 img{
+    margin-top: 0px;
+    margin-right: 1000px;
+    width: 104.8%;
+    height: 50 vh;
+    margin-top: 21.9%;
+    object-fit: cover;
+}
+.dm1{
+    height: 50vh;
+}
+.dm1 img{
+    
+    margin-top: 50px;
+    width: 95.2%;
+    height: 74.3vh;
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    margin-left: 30px;
+    object-fit: cover;
+}
+.compliance1{
+    height: 50vh;
+    margin-top: 0px;
+}
+.compliance1 img{
+    
+    margin-top: 193px;
+    width: 95.2%;
+    height: 74.3vh;
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    margin-left: 30px;
+    object-fit: cover;
+}
+.empty2{
+    height: 52vh;
+   
+}
+.empty2 img{
+    margin-top: 337px;
+    width: 95.2%;
+    height: 73.9vh;
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    margin-left: 30px;
+    object-fit: cover;
+    
+}*/
+
+
+.services{
+    margin: -70px auto;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-top: 100px;
+}
+.service{
+    flex-basis: 31%;
+    position: relative;
+}
+.caption{
+    margin-top: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    height: 70.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.service:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
