@@ -16,6 +16,7 @@ const App = () => {
       <About/>
       <Title title='Services'/>
       <Services/>
+      <Title title='Pricing'/>
       
     </div>
   )

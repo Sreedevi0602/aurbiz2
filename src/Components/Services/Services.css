@@ -113,24 +113,24 @@
 }*/
 
 
-.services{
+.services1{
     margin: -70px auto;
     width: 92%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.service img{
+.service1 img{
     width: 100%;
     border-radius: 10px;
     display: block;
     margin-top: 100px;
 }
-.service{
+.service1{
     flex-basis: 31%;
     position: relative;
 }
-.caption{
+.caption1{
     margin-top: 100px;
     border-radius: 10px;
     position: absolute;
@@ -150,7 +150,52 @@
     padding-top: 70%;
     transition: 0.4s;
 }
-.service:hover .caption{
+.service1:hover .caption1{
+    opacity: 1;
+    padding-top: 0;
+}
+
+.services2{
+    margin: -70px auto;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    
+}
+.service2 img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-top: 130px;
+    
+}
+.service2{
+    flex-basis: 31%;
+    position: relative;
+}
+.caption2{
+    margin-top: 130px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    height: 64.7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.service2:hover .caption2{
     opacity: 1;
     padding-top: 0;
 }

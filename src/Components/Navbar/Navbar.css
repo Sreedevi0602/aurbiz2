@@ -22,7 +22,7 @@ nav ul li{
     font-size: 16px;
 }
 .dark-nav{
-    background: linear-gradient(45deg,#3b2c85,#191775,black);
+    background: linear-gradient(45deg,black,#191775,#3b2c85);
     background-size: 100% 100%;  
     transition: 0.5s;
     opacity: 0.95;
