@@ -1,0 +1,126 @@
+.testimonial-container {
+    max-width: 800px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: transparent;
+    margin-top: -170px;
+    margin-bottom: -80px;
+  }
+    
+  
+  
+  
+  /* Slider container */
+  .slider-container {
+    position: relative;
+    user-select: none;
+    padding-inline: 1rem;
+    background: transparent;
+    width: 900px;
+    margin-left: -50px;
+  }
+  .slider-container .review-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 0px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-inline: auto;
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+  
+  /* Splide customization */
+  .splide__track {
+    border-radius: 0px;
+    background: transparent;
+    width: 1260px;
+    margin: 0 -200px;
+  }
+  
+  .splide__slide {
+    display: flex;
+    align-items: center;
+    background-color: linear-gradient(to bottom,black,#131329,#1f1f28);
+    padding: 3rem 5rem 3rem 5rem;
+    border-radius: 1rem;
+    gap: 1.5rem;
+  }
+  
+  .slider-container .content .text {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  
+  .slider-container .content .rating {
+    display: inline-block;
+    line-height: 2;
+  }
+  
+  .slider-container .content .star {
+    color: #2a0898;
+    font-size: 1.1rem;
+  }
+  
+  .slider-container .content .user {
+    font-weight: 800;
+    color: white;
+  }
+  
+  .splide__pagination__page.is-active {
+    background-color: #100705;
+    display: flex;
+    align-items: center;
+  }
+  
+  .splide__arrow {
+    position: absolute;
+    background-color: rgb(16, 13, 71);
+    border: none;
+    font-size: 1.2rem;
+    color: #6b6a6a;
+    font-weight: 300;
+  }
+  
+  .splide__arrow--prev {
+    top: 50%;
+    left: -3.5rem;
+    margin-left: -200px;
+  }
+  
+  .splide__arrow--next {
+    top: 50%;
+    right: -3.5rem;
+    margin-right: -200px;
+  }
+  
+  .splide__pagination__page{
+    height: 10px;
+    width: 10px;
+    opacity: 1;
+  }
+  
+  /* Media Query */
+  @media (max-width: 576px) {
+    .splide__slide {
+      display: block;
+      text-align: center;
+    }
+  
+    .splide__arrow {
+      font-size: 1.5rem;
+    }
+  
+    .splide__arrow--prev {
+      left: 0.5rem;
+    }
+  
+    .splide__arrow--next {
+      right: 0.5rem;
+    }
+  }

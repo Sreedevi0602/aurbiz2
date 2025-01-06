@@ -9,7 +9,7 @@ import training2 from '../../assets/training2.png'
 
 const Services = () => {
   return (
-    <div>
+    <div className='serv' id='services'>
     <div className='services1'>
       <div className="service1">
           <img src={consulting7} alt=''/>

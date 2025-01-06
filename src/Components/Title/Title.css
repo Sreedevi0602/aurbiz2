@@ -1,9 +1,19 @@
-.title p{
-    text-align: center;
-    color: #000F38;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: none;
-    margin: 80px 550px 10px;
+.title-main{
+    margin-left: 440px;
+    width: 50%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
-
+.title-p1{
+    
+    color: #ffffff;
+    font-size: 45px;
+    font-weight:bolder;
+    text-transform: none;
+    margin: 10px 6px 5px 50px;
+    text-align: center;
+    display: flex;
+    width: 283px;
+    min-height: 2vh;
+    justify-content: center;
+}

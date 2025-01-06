@@ -1,0 +1,208 @@
+.footer{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px inset grey;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 6rem;
+    
+}
+.div1, .div2, .div3, .div4, .div5{
+    width: 150px;
+    margin: 2rem;
+    margin-bottom: -1rem;
+    margin-top: 6rem;
+    margin-left: 4.3rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
+.div1{
+    height: -10px;
+    margin-left: 100px;
+    
+    
+}
+.div2{
+    height: -10px;
+    margin-left: 70px;
+    padding-left: 30px;
+}
+.div3{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 10px;
+    
+}
+.div4{
+    padding-left: -50px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.socials{
+    width: 1px;
+    display: inline-block;
+    margin-left: 2.2rem;
+    margin-bottom: -10px;   
+}
+.logo-img{
+    width: 500px;
+    height: 300px;
+    margin-top: -80px;
+    margin-bottom: -80px;
+    margin-left: -140px;
+}
+
+.aurbiz-img{
+    width: 427px;
+    height: 300px;
+    margin-top: -120px;
+    margin-bottom: -123px;
+    margin-left: -245px;
+    margin-right: 100px;
+    
+}
+.brands{
+    width: 20%;
+    display: inline-block;
+    margin: 20px 40px 10px 5px;  
+    padding-bottom: -100px;
+    padding-top: 1px;
+    
+}
+.brands img{
+    width: 100px;  
+}
+.brand1{
+    height: 120px;
+    padding-top: 10px;
+    margin-left: -134px;
+    
+}
+.brand2{
+    max-width: 200px;
+    height: 87px;
+    padding-top: -100px;
+    margin-left: -104px;   
+}
+.div2 h4, .div3 h4, .div4 h4{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0.5rem;
+    color: whitesmoke;
+}
+.div2 h4 a{
+    color: whitesmoke;
+}
+.div2 p, .div3 p, .div4 p{
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    color: gray;
+}
+.div2 a p{
+    color: grey;
+}
+.div6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+
+.div6-right{
+    display: flex;
+    flex-direction: row;
+    
+}
+.div6-left{
+    color: grey;
+}
+.div6-right ul li{
+    
+    
+    
+    font-size: 12px;
+    color: grey;
+    font-weight: 300;
+    margin: 20px 30px;
+    display: inline-block;
+    list-style: none;
+}
+hr{
+    background-color: grey !important;
+    width: 100%;
+    
+    
+}
+.div6-left ul li{
+    font-size: 12px;
+    color: grey;
+    font-weight: 300;
+    margin: 20px 30px;
+    display: inline-block;
+    list-style: none;
+    
+}
+.div6-left ul li a{
+    color: grey;
+}
+.div0 h4{
+    color: whitesmoke;
+    margin-left: 35px;
+    margin-top: 68px;
+}
+.form-x form {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Input takes more space, button is auto-sized */
+    gap: 303px; /* Spacing between elements */
+    margin-bottom: 6rem;
+    margin-top: -133px;
+}
+
+.form-x input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 86.5%;
+    margin-left: 134px;
+    background: transparent;
+    border: 1px solid grey;
+    outline: 0;
+    resize: none;
+    border-radius: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.form-x button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: -200px;
+    margin-right: 800px;
+    border-radius: 0px;
+    border: 1px solid grey;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background: transparent;
+    text-align: center;
+
+}

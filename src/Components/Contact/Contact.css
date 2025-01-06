@@ -1,0 +1,87 @@
+.contact1{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+.contact-col1{
+    flex-basis: 48%;
+    color: white;
+    background: transparent;
+}
+.contact-col2{
+    flex-basis: 52%;
+    color: white;
+    background: transparent;
+}
+.contact-col1 h3{
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-col1 p{
+    max-width: 450px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.contact-col1 ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+.space2{
+    padding-left: 1.5rem;
+}
+.space3{
+    line-height: 2;
+    
+}
+.contact-col2 label{
+    font-weight: 200;
+}
+.contact-col2 form input, .contact-col2 form textarea{
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 15px;
+    border:  1px solid gray;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    border-radius: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.contact-col2 span{
+    display: white;
+    margin: 20px 0;
+}
+.btn-contact{
+    cursor: pointer;
+    padding-block: 1em;
+    width: 20%;
+    border-radius: 0px;
+    border: 1px solid grey;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background: transparent;
+    text-align: center;
+    margin: 0 auto;
+}
+.res{
+    font-size: 15px;
+    font-weight: 100;
+}

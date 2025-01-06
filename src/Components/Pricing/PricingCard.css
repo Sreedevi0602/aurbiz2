@@ -1,0 +1,129 @@
+.PricingCard {
+    padding: 2em;
+    border-radius: 0px;
+    text-align: center;
+    color: linear-gradient(to right,black,#131329,#1f1f28);
+    background-color: var(--neutral-white);
+    width: min(100%, 30rem);
+    border-color: #131329;
+  }
+  .PricingCard:nth-child(2) {
+    background: linear-gradient(to right,rgb(10, 0, 28),#00001b,#02021e, #000016, #02021e, #00001b);
+    color: var(--neutral-white);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    opacity: 0.9;
+    
+  }
+  .PricingCard header > .card-price {
+    margin-block: 1rem;
+    font-size: 3.5em;
+  }
+  .PricingCard .card-features > * {
+    padding-top: 2em; 
+  }
+  .PricingCard .card-features :last-child {
+    margin-bottom: 1.5em;
+  }
+  .PricingCard .card-btn {
+    cursor: pointer;
+    padding-block: 1em;
+    width: 50%;
+    border-radius: 0px;
+    background-image: linear-gradient(to right, var(--primary-linear-gradient));
+    border: 2px solid transparent;
+    outline: transparent;
+    border-color: linear-gradient(to right,black,#131329,#1f1f28);
+    transition: 0.125s ease;
+    color: var(--neutral-white);
+    opacity: 1;
+    background: linear-gradient(to right,black,#131329,#1f1f28);
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .PricingCard .card-btn:is(:focus-visible, :hover) {
+    color: #131329;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, var(--primary-linear-gradient)) border-box;
+    border-radius: 0px;
+    border: 2px solid transparent;
+  }
+  
+  .PricingCard:nth-child(2) .card-btn {
+    background: transparent;
+    background-color: var(--neutral-white);
+    color: #131329;
+    text-align: center;
+  }
+  
+  .PricingCard:nth-child(2) .card-btn:is(:focus-visible, :hover) {
+    color: var(--neutral-white);
+    background: linear-gradient(to right,black,#131329,#1f1f28);
+        padding-box,
+      linear-gradient(white, white) border-box;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    border-color: white;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .PricingCard:nth-child(2) {
+      align-self: center;
+    }
+  }
+  .card-title{
+    padding-bottom: 30px;
+  }
+  .card-storage{
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: medium;
+    font-weight: 200;
+  }
+  .card-users-allowed{
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  
+  .PricingCard .purchase-btn{
+    cursor: pointer;
+    padding-block: 1em;
+    width: 100%;
+    border-radius: 0px;
+    background-image: linear-gradient(to right, var(--primary-linear-gradient));
+    border: 2px solid transparent;
+    outline: transparent;
+    border-color: linear-gradient(to right,black,#131329,#1f1f28);;
+    transition: 0.125s ease;
+    color: var(--neutral-white);
+    opacity: 1;
+    background: linear-gradient(to right,black,#131329,#1f1f28);
+    padding-bottom: 15px;
+  }
+  .PricingCard .purchase-btn:is(:focus-visible, :hover) {
+    color: #131329;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, var(--primary-linear-gradient)) border-box;
+    border-radius: 0px;
+    border: 2px solid transparent;
+  }
+  .PricingCard:nth-child(2) .purchase-btn {
+    background: transparent;
+    background-color: var(--neutral-white);
+    color: #131329;
+  }
+  .PricingCard:nth-child(2) .purchase-btn:is(:focus-visible, :hover) {
+    color: var(--neutral-white);
+    background: linear-gradient(to right,black,#131329,#1f1f28);
+        padding-box,
+      linear-gradient(white, white) border-box;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    border-color: white;
+  }
