@@ -144,20 +144,25 @@
     background: rgba(38, 39, 53, 0.5);
     height: 70.5%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    justify-content:flex-start;
     flex-direction: column;
     color: white;
     cursor: pointer;
     opacity: 0;
     padding-top: 70%;
-    transition: 0.4s;
+    transition: 0.6s;
 }
 .service1:hover .caption1{
     opacity: 1;
     padding-top: 0;
 }
-
+.caption1 p, .caption2 p, .caption3 p, .caption4 p, .caption5 p, .caption6 p{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 35px;
+    margin-left: 15px;
+}
 .services2{
     margin: -70px auto;
     width: 92%;
@@ -179,6 +184,54 @@
     position: relative;
 }
 .caption2{
+    margin-top: 100px;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(38, 39, 53, 0.5);
+    height: 70.5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.6s;
+}
+.service1:hover .caption2{
+    opacity: 1;
+    padding-top: 0;
+}
+.caption3{
+    margin-top: 100px;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(38, 39, 53, 0.5);
+    height: 70.5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.6s;
+}
+.service1:hover .caption3{
+    opacity: 1;
+    padding-top: 0;
+}
+.caption4{
     margin-top: 130px;
     border-radius: 0px;
     position: absolute;
@@ -189,16 +242,76 @@
     background: rgba(38, 39, 53, 0.5);
     height: 64.7%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     color: white;
     cursor: pointer;
     opacity: 0;
     padding-top: 70%;
-    transition: 0.4s;
+    transition: 0.6s;
 }
-.service2:hover .caption2{
+.service2:hover .caption4{
     opacity: 1;
     padding-top: 0;
+}
+.caption5{
+    margin-top: 130px;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(38, 39, 53, 0.5);
+    height: 64.7%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.6s;
+}
+.service2:hover .caption5{
+    opacity: 1;
+    padding-top: 0;
+}
+.caption6{
+    margin-top: 130px;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(38, 39, 53, 0.5);
+    height: 64.7%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.6s;
+}
+.service2:hover .caption6{
+    opacity: 1;
+    padding-top: 0;
+}
+.btn-service{
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-top: 11px;
+    padding-bottom: 5px;
+    border-radius: 0px;
+    margin-top: 95px;
+    margin-left: 300px;
 }
