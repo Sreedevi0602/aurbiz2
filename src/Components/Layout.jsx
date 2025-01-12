@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './../Components/Navbar/Navbar'
+{/*import Navbar from './../Components/Navbar/Navbar'*/}
 import Hero from './../Components/Hero/Hero'
 import About from './../Components/About/About'
 import Title from './../Components/Title/Title'
@@ -7,12 +7,12 @@ import Services from './../Components/Services/Services'
 import PricingCard from './../Components/Pricing/PricingApp'
 import Testimonials from './../Components/Testimonials/Testimonials'
 import Contact from './../Components/Contact/Contact'
-import Footer from './../Components/Footer/Footer'
+{/*import Footer from './../Components/Footer/Footer'*/}
 
 const Layout = () => {
   return (
     <div>
-      <Navbar/>
+      {/*<Navbar/>*/}
       <Hero/>
       <About/>
       <Title title1='What We Do'/>
@@ -23,7 +23,7 @@ const Layout = () => {
       <Testimonials/>
       <Title title1="Let's Talk"/>
       <Contact/>
-      <Footer/>
+      {/*<Footer/>*/}
     </div>
   )
 }

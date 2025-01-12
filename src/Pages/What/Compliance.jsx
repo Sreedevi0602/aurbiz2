@@ -1,9 +1,10 @@
 import React from 'react'
 import './Compliance.css'
+import Services from '../../Components/Services/Services'
 
 const Compliance = () => {
   return (
-    <div>Compliance</div>
+    <div>Compliance<Services/></div>
   )
 }
 

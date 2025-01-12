@@ -1,9 +1,10 @@
 import React from 'react'
 import './Consulting.css'
+import Services from '../../Components/Services/Services'
 
 const Consulting = () => {
   return (
-    <div>Consulting</div>
+    <div>Consulting<Services/></div>
   )
 }
 

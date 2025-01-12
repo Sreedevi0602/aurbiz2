@@ -1,5 +1,10 @@
 import React, { lazy, Suspense } from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
+const Navbar = lazy(() => import ('../Navbar/Navbar'))
+const Footer = lazy(() => import ('../Footer/Footer'))
+{/*import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'*/}
+
 const Layout = lazy(() => import ('../Layout'))
 const Who = lazy(() => import ('../../Pages/Who/Who'))
 const What = lazy(() => import ('../../Pages/What/What'))
@@ -18,54 +23,58 @@ const Loader = lazy(() => import ('../Loader'))
 const routers = createBrowserRouter([
     {
         path: "/",
-        element: <Layout/>,
+        element: <><Navbar/><Outlet/><Footer/></>,
         children: [
         {
-            path: "/about",
+            index: true,
+            element: <Layout/>
+        },
+        {
+            path: "about",
             element: <Who/>
         },
         {
-            path: "/services",
+            path: "services",
             element: <What/>
         },
         {
-            path: "/services/strategic_consulting",
+            path: "strategic_consulting",
             element: <Consulting/>
         },
         {
-            path: "/services/tech_support_&_development",
+            path: "tech_support_&_development",
             element: <Tech/>
         },
         {
-            path: "/services/digital_marketing_&_branding",
+            path: "digital_marketing_&_branding",
             element: <Branding/>
         },
         {
-            path: "/services/design_&_creative_strategy",
+            path: "design_&_creative_strategy",
             element: <Design/>
         },
         {
-            path: "/services/business_compliance",
+            path: "business_compliance",
             element: <Compliance/>
         },
         {
-            path: "/services/training_&_development",
+            path: "training_&_development",
             element: <Training/>
         },
         {
-            path: "/pricing",
+            path: "pricing",
             element: <Plans/>
         },
         {
-            path: "/pricing/basic",
+            path: "basic",
             element: <Basic/>
         },
         {
-            path: "/pricing/standard",
+            path: "standard",
             element: <Standard/>
         },
         {
-            path: "/pricing/platinum",
+            path: "platinum",
             element: <Platinum/>
         }
     ]

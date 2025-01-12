@@ -1,9 +1,11 @@
 import React from 'react'
 import './Basic.css'
 
+import PricingApp from '../../Components/Pricing/PricingApp'
+
 const Basic = () => {
   return (
-    <div>Basic</div>
+    <div>Basic<PricingApp/></div>
   )
 }
 

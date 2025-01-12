@@ -1,9 +1,10 @@
 import React from 'react'
 import './What.css'
+import Services from '../../Components/Services/Services'
 
 const What = () => {
   return (
-    <div>What</div>
+    <div>What<Services/></div>
   )
 }
 
