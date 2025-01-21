@@ -7,6 +7,7 @@ import Services from './../Components/Services/Services'
 import PricingCard from './../Components/Pricing/PricingApp'
 import Testimonials from './../Components/Testimonials/Testimonials'
 import Contact from './../Components/Contact/Contact'
+import { Link } from 'react-router-dom'
 {/*import Footer from './../Components/Footer/Footer'*/}
 
 const Layout = () => {
@@ -15,9 +16,9 @@ const Layout = () => {
       {/*<Navbar/>*/}
       <Hero/>
       <About/>
-      <Title title1='What We Do'/>
+      <Link to='/services'><Title title1='What We Do'/></Link>
       <Services/>
-      <Title title1='Plans'/>
+      <Link to='/pricing'><Title title1='Plans'/></Link>
       <PricingCard/>
       <Title title1='Voices'/>
       <Testimonials/>

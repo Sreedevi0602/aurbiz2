@@ -1,7 +1,7 @@
 import React from 'react'
 import './PricingCard.css'
 
-const PricingCard = ({title, storage, price, users}) => {
+const PricingCard = ({title, storage, price, users, purchase1, read1}) => {
   return (
     <div className='PricingCard'>
                     <header>
@@ -13,8 +13,11 @@ const PricingCard = ({title, storage, price, users}) => {
                         <header>
                         <h1 className='card-price'>{price}</h1>
                         </header>
+                        <header>
+                        <button className='purchase-btn'>{purchase1}</button>
+                        </header>
 
-                        <button className='purchase-btn'>Purchase Now</button>
+                        {/*<button className='purchase-btn'>Purchase Now</button>*/}
                         
                     <header className='card-features'>
                         
@@ -23,8 +26,11 @@ const PricingCard = ({title, storage, price, users}) => {
                         
                         
                     </header>
+                    <header>
+                    <button className='card-btn'>{read1}</button>
+                    </header>
                     
-                    <button className='card-btn'>Read More</button>
+                    {/*<button className='card-btn'>Read More</button>*/}
                 </div>
   )
 }
