@@ -34,13 +34,15 @@ seeking comprehensive support through a partnership
 and advisory approach to business consulting.'
                 price={selectMonthly ? '₹14500' : '₹130500'}
                 purchase1="Purchase Now"
+                
                 users= {<ul style={{listStyle: 'none'}}>
                     <li>Initial Report</li>
                     <li>Standard Resources</li>
                     <li>30 hours of online consulting</li>
                     <li>SWOT Analysis</li>  
                 </ul>}
-                read1= "Read More"
+                read1= {<Link to="/basic"><button className='card-btn'>Read More</button></Link>}
+            
                 />
                 <PricingCard
                 title="Standard"
@@ -59,7 +61,7 @@ strategies for growth.'
                 <li>SWOT Analysis</li>
                 <li>Action Plan Development</li>  
             </ul>}
-                read1="Read More"
+                read1={<Link to="/standard"><button className='card-btn'>Read More</button></Link>}
                 />
                 <PricingCard
                 title="Platinum"
@@ -75,7 +77,7 @@ objectives and drive growth.'
                 <li>30 hours of online consulting</li>
                 <li>SWOT Analysis</li>  
             </ul>}
-                read1="Read More"
+                read1={<Link to="/platinum"><button className='card-btn'>Read More</button></Link>}
                 />
             </div>
 

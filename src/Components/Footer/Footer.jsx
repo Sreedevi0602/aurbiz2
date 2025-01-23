@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import aurbizlogo1 from '../../assets/aurbizlogo1.png'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import aur1 from '../../assets/aur1.png'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -30,25 +30,25 @@ const Footer = () => {
 
           </div>
           <div className='div2'>
-            <a href="/home"><h4>Company</h4></a>
-            <a href="/about"><p>Who We Are</p></a>
-            <a href="/testimonials"><p>Voices</p></a>
-            <a href="/contact"><p>Let's Talk</p></a>
+            <Link to="/"><h4>Company</h4></Link>
+            <Link to="/about"><p>Who We Are</p></Link>
+            <Link to="/"><p>Voices</p></Link>
+            <Link to="/"><p>Let's Talk</p></Link>
           </div>
           <div className='div3'>
-            <a href="/services"><h4>What We Do</h4></a>
-            <a href="/consulting"><p>Strategic Consulting</p></a>
-            <a href="/tech"><p>Tech Support & Development</p></a>
-            <a href="/branding"><p>Digital Marketing & Branding</p></a>
-            <a href="/design"><p>Design & Creative Strategy</p></a>
-            <a href="/compliance"><p>Business Compliance</p></a>
-            <a href="/training"><p>Training & Development</p></a>
+            <Link to="/services"><h4>What We Do</h4></Link>
+            <Link to="/strategic_consulting"><p>Strategic Consulting</p></Link>
+            <Link to="/tech_support_&_development"><p>Tech Support & Development</p></Link>
+            <Link to="/digital_marketing_&_branding"><p>Digital Marketing & Branding</p></Link>
+            <Link to="/design_&_creative_strategy"><p>Design & Creative Strategy</p></Link>
+            <Link to="/business_compliance"><p>Business Compliance</p></Link>
+            <Link to="/training_&_development"><p>Training & Development</p></Link>
           </div>
           <div className='div4'>
-            <a href="/pricing"><h4>Plans</h4></a>
-            <a href="/basic"><p>Basic</p></a>
-            <a href="/standard"><p>Standard</p></a>
-            <a href="/platinum"><p>Platinum</p></a>
+            <Link to="/pricing"><h4>Plans</h4></Link>
+            <Link to="/basic"><p>Basic</p></Link>
+            <Link to="/standard"><p>Standard</p></Link>
+            <Link to="/platinum"><p>Platinum</p></Link>
           </div>
           <div className='div5'>
             <img src= {aurbizlogo1} alt="" className='aurbiz-img'/>
@@ -81,7 +81,7 @@ const Footer = () => {
           <div className='div6-right'>
             <ul>
             <li className='right-p2'>© 2025, Aurbiz. All Rights Reserved.</li>
-            <li className='right-p1'><Link to='hero' smooth={true} offset={0} duration={500}><strong>BACK TO TOP ^</strong></Link></li>
+            <li className='right-p1'><Link to='/' smooth={true} offset={200} duration={500}><strong>BACK TO TOP ^</strong></Link></li>
             </ul>
           </div>
         </div>

@@ -1,5 +1,9 @@
 import React, { lazy, Suspense } from 'react'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
+import Cookie from '../../Pages/Below/Cookie'
+import Security from '../../Pages/Below/Security'
+import Privacy from '../../Pages/Below/Privacy'
+import Terms from '../../Pages/Below/Terms'
 const Navbar = lazy(() => import ('../Navbar/Navbar'))
 const Footer = lazy(() => import ('../Footer/Footer'))
 {/*import Navbar from '../Navbar/Navbar'
@@ -76,6 +80,22 @@ const routers = createBrowserRouter([
         {
             path: "platinum",
             element: <Platinum/>
+        },
+        {
+            path: "terms",
+            element: <Terms/>
+        },
+        {
+            path: "privacy",
+            element: <Privacy/>
+        },
+        {
+            path: "security",
+            element: <Security/>
+        },
+        {
+            path: "cookie",
+            element: <Cookie/>
         }
     ]
     }

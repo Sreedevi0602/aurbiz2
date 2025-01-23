@@ -45,6 +45,7 @@
     margin: 0 auto;
   }
   
+  
   .PricingCard .card-btn:is(:focus-visible, :hover) {
     color: #131329;
     background: linear-gradient(white, white) padding-box,

@@ -27,7 +27,7 @@ const PricingCard = ({title, storage, price, users, purchase1, read1}) => {
                         
                     </header>
                     <header>
-                    <button className='card-btn'>{read1}</button>
+                    {read1}
                     </header>
                     
                     {/*<button className='card-btn'>Read More</button>*/}
