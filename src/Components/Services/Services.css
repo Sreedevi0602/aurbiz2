@@ -142,7 +142,7 @@
     bottom: 0;
     right: 0;
     background: rgba(38, 39, 53, 0.5);
-    height: 70.5%;
+    height: 70.71%;
     display: flex;
     align-items:flex-start;
     justify-content:flex-start;
@@ -192,7 +192,7 @@
     bottom: 0;
     right: 0;
     background: rgba(38, 39, 53, 0.5);
-    height: 70.5%;
+    height: 70.71%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -216,7 +216,7 @@
     bottom: 0;
     right: 0;
     background: rgba(38, 39, 53, 0.5);
-    height: 70.5%;
+    height: 70.71%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -240,7 +240,7 @@
     bottom: 0;
     right: 0;
     background: rgba(38, 39, 53, 0.5);
-    height: 64.7%;
+    height: 64.8%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -254,6 +254,7 @@
 .service2:hover .caption4{
     opacity: 1;
     padding-top: 0;
+    
 }
 .caption5{
     margin-top: 130px;
@@ -264,7 +265,7 @@
     bottom: 0;
     right: 0;
     background: rgba(38, 39, 53, 0.5);
-    height: 64.7%;
+    height: 64.8%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -288,7 +289,7 @@
     bottom: 0;
     right: 0;
     background: rgba(38, 39, 53, 0.5);
-    height: 64.7%;
+    height: 64.8%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
