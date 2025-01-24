@@ -3,6 +3,7 @@ import './Hero.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import { carousel } from './carouselData';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
               <div className="hero-text">
                 <h1>{carousel.head}</h1>
                 <p>{carousel.content}</p>
-                <buton className = 'btn2'>{carousel.but}</buton>
+                {carousel.but}
               </div>
 
             </SplideSlide>

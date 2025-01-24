@@ -9,6 +9,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import brandog1 from '../../assets/brandog1.png'
 import modgo from '../../assets/modgo.png'
+import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll'
 
 const Footer = () => {
   return (
@@ -30,25 +31,25 @@ const Footer = () => {
 
           </div>
           <div className='div2'>
-            <Link to="/"><h4>Company</h4></Link>
-            <Link to="/about"><p>Who We Are</p></Link>
-            <Link to="/"><p>Voices</p></Link>
-            <Link to="/"><p>Let's Talk</p></Link>
+            <Link to="/" onClick="container"><h4>Company</h4></Link>
+            <Link to="/about" onClick="container"><p>Who We Are</p></Link>
+            <Link to="/" onClick="testimonial-container"><p>Voices</p></Link>
+            <Link to="/" onClick="contact"><p>Let's Talk</p></Link>
           </div>
           <div className='div3'>
-            <Link to="/services"><h4>What We Do</h4></Link>
-            <Link to="/strategic_consulting"><p>Strategic Consulting</p></Link>
-            <Link to="/tech_support_&_development"><p>Tech Support & Development</p></Link>
-            <Link to="/digital_marketing_&_branding"><p>Digital Marketing & Branding</p></Link>
-            <Link to="/design_&_creative_strategy"><p>Design & Creative Strategy</p></Link>
-            <Link to="/business_compliance"><p>Business Compliance</p></Link>
-            <Link to="/training_&_development"><p>Training & Development</p></Link>
+            <Link to="/services" onClick="container"><h4>What We Do</h4></Link>
+            <Link to="/strategic_consulting" onClick="container"><p>Strategic Consulting</p></Link>
+            <Link to="/tech_support_&_development" onClick="container"><p>Tech Support & Development</p></Link>
+            <Link to="/digital_marketing_&_branding" onClick="container"><p>Digital Marketing & Branding</p></Link>
+            <Link to="/design_&_creative_strategy" onClick="container"><p>Design & Creative Strategy</p></Link>
+            <Link to="/business_compliance" onClick="container"><p>Business Compliance</p></Link>
+            <Link to="/training_&_development" onClick="container"><p>Training & Development</p></Link>
           </div>
           <div className='div4'>
-            <Link to="/pricing"><h4>Plans</h4></Link>
-            <Link to="/basic"><p>Basic</p></Link>
-            <Link to="/standard"><p>Standard</p></Link>
-            <Link to="/platinum"><p>Platinum</p></Link>
+            <Link to="/pricing" onClick="container"><h4>Plans</h4></Link>
+            <Link to="/basic" onClick="container"><p>Basic</p></Link>
+            <Link to="/standard" onClick="container"><p>Standard</p></Link>
+            <Link to="/platinum" onClick="container"><p>Platinum</p></Link> 
           </div>
           <div className='div5'>
             <img src= {aurbizlogo1} alt="" className='aurbiz-img'/>
@@ -72,16 +73,16 @@ const Footer = () => {
         <div className='div6'>
           <div className='div6-left'>
             <ul>
-            <li><a href='/terms'>Terms & Conditions</a></li>
-            <li><a href='/privacy'>Privacy</a></li>
-            <li><a href='/security'>Security</a></li>
-            <li><a href='/cookie'>Cookie Declaration</a></li>
+            <li><a href='/terms' onClick="container">Terms & Conditions</a></li>
+            <li><a href='/privacy' onClick="container">Privacy</a></li>
+            <li><a href='/security' onClick="container">Security</a></li>
+            <li><a href='/cookie' onClick="container">Cookie Declaration</a></li>
             </ul>
           </div>
           <div className='div6-right'>
             <ul>
             <li className='right-p2'>© 2025, Aurbiz. All Rights Reserved.</li>
-            <li className='right-p1'><Link to='/' smooth={true} offset={200} duration={500}><strong>BACK TO TOP ^</strong></Link></li>
+            <li className='right-p1'><Link to={{}} onClick="container"><strong>BACK TO TOP ^</strong></Link></li>
             </ul>
           </div>
         </div>

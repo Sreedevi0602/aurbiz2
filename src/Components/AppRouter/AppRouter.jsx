@@ -39,30 +39,30 @@ const routers = createBrowserRouter([
         },
         {
             path: "services",
-            element: <What/>
+            element: <What/>,
         },
         {
-            path: "strategic_consulting",
+            path: "services/strategic_consulting",
             element: <Consulting/>
         },
         {
-            path: "tech_support_&_development",
+            path: "services/tech_support_&_development",
             element: <Tech/>
         },
         {
-            path: "digital_marketing_&_branding",
+            path: "services/digital_marketing_&_branding",
             element: <Branding/>
         },
         {
-            path: "design_&_creative_strategy",
+            path: "services/design_&_creative_strategy",
             element: <Design/>
         },
         {
-            path: "business_compliance",
+            path: "services/business_compliance",
             element: <Compliance/>
         },
         {
-            path: "training_&_development",
+            path: "services/training_&_development",
             element: <Training/>
         },
         {
@@ -70,15 +70,15 @@ const routers = createBrowserRouter([
             element: <Plans/>
         },
         {
-            path: "basic",
+            path: "pricing/basic",
             element: <Basic/>
         },
         {
-            path: "standard",
+            path: "pricing/standard",
             element: <Standard/>
         },
         {
-            path: "platinum",
+            path: "pricing/platinum",
             element: <Platinum/>
         },
         {

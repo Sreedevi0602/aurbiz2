@@ -16,9 +16,9 @@ const Layout = () => {
       {/*<Navbar/>*/}
       <Hero/>
       <About/>
-      <Link to='/services'><Title title1='What We Do'/></Link>
+      <Link to='/services' onClick="container"><Title title1='What We Do'/></Link>
       <Services/>
-      <Link to='/pricing'><Title title1='Plans'/></Link>
+      <Link to='/pricing' onClick="container"><Title title1='Plans'/></Link>
       <PricingCard/>
       <Title title1='Voices'/>
       <Testimonials/>

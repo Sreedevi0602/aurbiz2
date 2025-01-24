@@ -41,7 +41,7 @@ and advisory approach to business consulting.'
                     <li>30 hours of online consulting</li>
                     <li>SWOT Analysis</li>  
                 </ul>}
-                read1= {<Link to="/basic"><button className='card-btn'>Read More</button></Link>}
+                read1= {<Link to="/pricing/basic" onClick="container"><button className='card-btn'>Read More</button></Link>}
             
                 />
                 <PricingCard
@@ -61,7 +61,7 @@ strategies for growth.'
                 <li>SWOT Analysis</li>
                 <li>Action Plan Development</li>  
             </ul>}
-                read1={<Link to="/standard"><button className='card-btn'>Read More</button></Link>}
+                read1={<Link to="/pricing/standard" onClick="container"><button className='card-btn'>Read More</button></Link>}
                 />
                 <PricingCard
                 title="Platinum"
@@ -77,7 +77,7 @@ objectives and drive growth.'
                 <li>30 hours of online consulting</li>
                 <li>SWOT Analysis</li>  
             </ul>}
-                read1={<Link to="/platinum"><button className='card-btn'>Read More</button></Link>}
+                read1={<Link to="/pricing/platinum" onClick="container"><button className='card-btn'>Read More</button></Link>}
                 />
             </div>
 

@@ -14,26 +14,26 @@ const Services = () => {
     <div className='serv' id='services'>
     <div className='services1'>
       <div className="service1">
-          <Link to='/strategic_consulting'><img src={consulting20} alt=''/></Link>
+          <Link to='/services/strategic_consulting' onClick="container"><img src={consulting20} alt=''/></Link>
           <div className='caption1'>
-          <Link to='/strategic_consulting'><p>Strategic Consulting</p></Link>
-          <Link to='/strategic_consulting'><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
+          <Link to='/services/strategic_consulting' onClick="container"><p>Strategic Consulting</p></Link>
+          <Link to='/services/strategic_consulting' onClick="container"><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
           </div>
       </div>
 
       <div className="service1">
-      <Link to='/tech_support_&_development'><img src={tech20} alt=''/></Link>
+      <Link to='/services/tech_support_&_development' onClick="container"><img src={tech20} alt=''/></Link>
         <div className='caption2'>
-        <Link to='/tech_support_&_development'><p>Tech Support & Development</p></Link>
-        <Link to='/tech_support_&_development'><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
+        <Link to='/services/tech_support_&_development' onClick="container"><p>Tech Support & Development</p></Link>
+        <Link to='/services/tech_support_&_development' onClick="container"><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
           </div>
       </div>
 
       <div className="service1">
-      <Link to='/digital_marketing_&_branding'><img src={branding11} alt=''/></Link>
+      <Link to='/services/digital_marketing_&_branding' onClick="container"><img src={branding11} alt=''/></Link>
         <div className='caption3'>
-        <Link to='/digital_marketing_&_branding'><p>Digital Marketing & Branding</p></Link>
-            <Link to='/digital_marketing_&_branding'><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
+        <Link to='/services/digital_marketing_&_branding' onClick="container"><p>Digital Marketing & Branding</p></Link>
+            <Link to='/services/digital_marketing_&_branding' onClick="container"><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
           </div>
       </div>
       </div>
@@ -41,26 +41,26 @@ const Services = () => {
 
     <div className='services2'>
     <div className="service2">
-    <Link to='/design_&_creative_strategy'><img src={design14} alt=''/></Link>
+    <Link to='/services/design_&_creative_strategy' onClick="container"><img src={design14} alt=''/></Link>
           <div className='caption4'>
-          <Link to='/design_&_creative_strategy'><p>Design & Creative Strategy</p></Link>
-          <Link to='/design_&_creative_strategy'><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
+          <Link to='/services/design_&_creative_strategy' onClick="container"><p>Design & Creative Strategy</p></Link>
+          <Link to='/services/design_&_creative_strategy' onClick="container"><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
     </div>
     </div>
 
     <div className="service2">
-    <Link to='/business_compliance'><img src={compliance20} alt=''/></Link>
+    <Link to='/services/business_compliance' onClick="container"><img src={compliance20} alt=''/></Link>
           <div className='caption5'>
-          <Link to='/business_compliance'><p>Business Compliance</p></Link>
-          <Link to='/business_compliance'><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
+          <Link to='/services/business_compliance' onClick="container"><p>Business Compliance</p></Link>
+          <Link to='/services/business_compliance' onClick="container"><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
     </div>
     </div>
 
     <div className="service2">
-    <Link to='/training_&_development'><img src={training10} alt=''/></Link>
+    <Link to='/services/training_&_development' onClick="container"><img src={training10} alt=''/></Link>
           <div className='caption6'>
-          <Link to='/training_&_development'><p>Training & Development</p></Link>
-          <Link to='/training_&_development'><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
+          <Link to='/services/training_&_development' onClick="container"><p>Training & Development</p></Link>
+          <Link to='/services/training_&_development' onClick="container"><button className='btn-service'><ArrowForwardIosOutlinedIcon /></button></Link>
     </div>
     </div>
 

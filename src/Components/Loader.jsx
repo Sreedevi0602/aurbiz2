@@ -3,7 +3,12 @@ import React from 'react'
 
 const Loader = () => {
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ 
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems:'center',
+      height: '100vh',
+      }}>
       <CircularProgress />
     </Box>
   )
